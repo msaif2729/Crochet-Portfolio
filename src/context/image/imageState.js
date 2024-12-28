@@ -9,7 +9,7 @@ const ImageState = (props) => {
     const handleUpload = (image) => {
         return new Promise((resolve, reject) => {
             if (image) {
-                const storageRef = ref(storage, `images/${image.name}`);
+                const storageRef = ref(storage, `images/image_${Date.now()}_${image.name}`);
                 const uploadTask = uploadBytesResumable(storageRef, image);
 
                 uploadTask.on(
