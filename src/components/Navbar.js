@@ -39,7 +39,7 @@ export default function Navbar() {
           <a href="#work"><li className=" cursor-pointer " > Our Work</li></a>
           <a href="#customer"><li className=" cursor-pointer " > Our Customers</li></a>
           <a href="#service"><li className=" cursor-pointer " > Our Service</li></a>
-          <a href="#review"><li className=" cursor-pointer " > Contact</li></a>
+          <a href="#contact"><li className=" cursor-pointer " > Contact</li></a>
         </ul>
             <div
               className="flex space-y-1 flex-col self-center p-1 lg:hidden "
@@ -90,7 +90,7 @@ export default function Navbar() {
           <a href="#work"><li className=" cursor-pointer " > Our Work</li></a>
           <a href="#customer"><li className=" cursor-pointer " > Our Customers</li></a>
           <a href="#service"><li className=" cursor-pointer " > Our Service</li></a>
-          <a href="#review"><li className=" cursor-pointer " > Contact</li></a>
+          <a href="#contact"><li className=" cursor-pointer " > Contact</li></a>
         </ul>
       </div>
 

@@ -73,15 +73,29 @@ export default function Review() {
   }
 
   return (
-    <div className=' -z-50 relative ' id='review'>
+    <div className=' -z-50 relative ' id='contact'>
       <div className='px-4 xl:px-20 pt-28 py-20 bg-lime-200'>
         <div className='flex flex-col xl:flex-row space-y-20 xl:space-y-0'>
           <div className='left xl:py-10 xl:px-10 xl:w-[50%] flex justify-center flex-col items-center xl:items-start'>
-            <h1 className='text-5xl xl:text-6xl font-extrabold pb-5 text-center xl:text-start '>Leave a Review</h1>
+            <h1 className='text-5xl xl:text-6xl font-extrabold text-center xl:text-start '>Contact Us</h1>
+            <div className='flex gap-4 lg:gap-8 xl:gap-10 px-2 py-5 '>
+                <div className='flex w-14 h-14 justify-center items-center bg-none rounded-lg cursor-pointer group/insta border-2 border-black hover:border-red-600 transition-all duration-500'>
+                    <a href="https://www.instagram.com/crochet.__.heaven/profilecard/?igsh=aWdxeHBibGowd3Bh"  rel='noreferrer' target='_blank'>
+                        <i className="text-2xl lg:text-3xl text-center  fa-brands fa-instagram group-hover/insta:text-red-600  transition-all duration-500"></i>
+                    </a>
+                </div>
+                <div className='flex w-14 h-14 justify-center items-center bg-none rounded-lg cursor-pointer group/whatsapp border-2 border-black hover:border-red-600 transition-all duration-500'>
+                    <a href="https://wa.me/918169170180" target="_blank" rel='noreferrer'>
+                        <i className="text-[var(--bg)] text-2xl lg:text-3xl text-center  fa-brands fa-whatsapp group-hover/whatsapp:text-red-600 transition-all duration-500"></i>
+                    </a>
+                </div>
+            </div> 
             <div>
+              <h1 className='text-3xl xl:text-5xl pt-5 font-extrabold text-center xl:text-start '>Leave a Review</h1>
               <p className='text-xl font-normal py-3 xl:text-start text-center'>  We’d love to hear your thoughts on our crochet piece! Your feedback helps us improve and inspires others. Whether it’s a cozy accessory, home décor, or a special gift, let us know how it added beauty to your life and share any suggestions. <span className='text-red-600 font-bold'>Thank you</span> for supporting our craft!"</p>
-              <img src={crochet} alt="" className='self-center hidden  xl:block pt-10' />
+              <img src={crochet} alt="" className='self-center hidden  xl:block' />
             </div>
+
           </div>
           <div className='right xl:py-10 xl:px-10 xl:w-[50%] flex justify-center flex-col items-center '>
             <div className=" w-full bg-white shadow-md rounded-lg p-8 z-[101]">

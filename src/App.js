@@ -11,7 +11,7 @@ import ServiceState from "./context/service/serviceState";
 import ReviewwState from "./context/review/reviewState";
 import WorkState from "./context/work/workState"
 import Adminpage from './components/Adminpage';
-import Input from './components/Input';
+// import Input from './components/Input';
 import ImageState from './context/image/imageState';
 
 
