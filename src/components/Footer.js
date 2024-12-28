@@ -6,7 +6,7 @@ export default function Footer() {
       <div className='w-full  flex flex-col md:flex-row  justify-between px-5 items-center pt-14 pb-5 mt-10' >
 
         <div className='flex flex-col justify-center items-center md:flex-row md:justify-start'>
-          <h1>Developed By</h1>
+          <h1>Designed & Developed By</h1>
           <span className="text-red-600 font-bold"> '❤️ Mohammed Saif Ansari ❤️'</span>
 
         </div>
